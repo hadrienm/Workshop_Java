@@ -20,5 +20,5 @@ public class Fruit extends Product{
 
     public String getColor() {
         return color;
-    } 
+    }
 }

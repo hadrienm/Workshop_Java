@@ -5,7 +5,6 @@
  */
 package companie.stockgestion.product;
 
-import companie.stockgestion.Controller;
 /**
  *
  * @author juliettead
@@ -14,8 +13,9 @@ public class Factory {
     public Factory() {
     }
     
-    protected Electronic createProduct(String processor, float weight,
-            String mark, String name, String origin, float price) {
+    protected Electronic createProduct(String processor,
+            float weight, String mark, String name, String origin,
+            float price) {
         Electronic electronic = new Electronic(processor,
                 weight, mark, name, origin, price);
         return electronic;
