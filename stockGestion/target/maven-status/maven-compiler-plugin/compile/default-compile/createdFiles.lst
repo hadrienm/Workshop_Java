@@ -1,9 +1,7 @@
 companie/stockgestion/product/Fruit.class
-PackageTest/Test.class
 companie/stockgestion/ListProductGestion.class
-PackageTest2/Test2.class
 companie/stockgestion/product/Electronic.class
 companie/stockgestion/product/Factory.class
-companie/stockgestion/SaveList.class
 companie/stockgestion/main.class
+companie/stockgestion/Controller.class
 companie/stockgestion/product/Product.class

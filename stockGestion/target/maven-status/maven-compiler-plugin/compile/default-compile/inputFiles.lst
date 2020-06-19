@@ -1,6 +1,7 @@
-/home/juliettead/NetBeansProjects/stockGestion/src/main/java/companie/stockgestion/factory/listProductGestion/ListProductGestion.java
-/home/juliettead/NetBeansProjects/stockGestion/src/main/java/companie/stockgestion/factory/Product.java
-/home/juliettead/NetBeansProjects/stockGestion/src/main/java/companie/stockgestion/factory/Fruit.java
-/home/juliettead/NetBeansProjects/stockGestion/src/main/java/companie/stockgestion/factory/Electronic.java
-/home/juliettead/NetBeansProjects/stockGestion/src/main/java/companie/stockgestion/main.java
-/home/juliettead/NetBeansProjects/stockGestion/src/main/java/companie/stockgestion/factory/Factory.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/product/Electronic.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/product/Fruit.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/Controller.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/ListProductGestion.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/main.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/product/Factory.java
+/home/juliettead/Downloads/workshop_java/stockGestion/src/main/java/companie/stockgestion/product/Product.java

@@ -24,12 +24,10 @@ public class Controller extends Factory {
             String origin, float price) {
         return this.createProduct(color, name, origin, price);
     }
-    @Override
-    protected void updateNameProduct(Product product, String name) {
+    protected void updateName(Product product, String name) {
         this.updateNameProduct(product, name);
     }
-    @Override
-    protected void updatePriceProduct(Product product, float price) {
+    protected void updatePrice(Product product, float price) {
         this.updatePriceProduct(product, price);    
     }
 }

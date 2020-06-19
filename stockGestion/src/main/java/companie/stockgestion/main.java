@@ -25,7 +25,7 @@ public class main {
         listproGestion.addProductToList(computeur);
         listproGestion.displayList();
         listproGestion.deleteProductToList(computeur);
-        controller.updateNameProduct(banana, "Banane");
+        controller.updateName(banana, "Banane");
         listproGestion.displayList(); 
     }
 }
