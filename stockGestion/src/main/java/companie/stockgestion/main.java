@@ -5,28 +5,27 @@
  */
 package companie.stockgestion;
 
-import companie.stockgestion.factory.Fruit;
-import companie.stockgestion.factory.Electronic;
-import companie.stockgestion.factory.Factory;
-import companie.stockgestion.factory.listProductGestion.ListProductGestion;
+import companie.stockgestion.product.Fruit;
+import companie.stockgestion.product.Electronic;
 
 /**
  *
  * @author juliettead
  */
+
 public class main {
     public static void main(String[] args) {
+        Controller controller = new Controller();
         ListProductGestion listproGestion = new ListProductGestion();
-        Factory factory = new Factory();
-        Electronic computeur = factory.createProduct("Intel 8th",
+        Electronic computeur = controller.commandProduct("Intel 8th",
                 3.0f, "Lenovo", "t480", "China", 980.5f);
-        Fruit banana = factory.createProduct("yellow", "banana",
+        Fruit banana = controller.commandProduct("yellow", "banana",
                 "French", 2.0f);
         listproGestion.addProductToList(banana);
         listproGestion.addProductToList(computeur);
         listproGestion.displayList();
         listproGestion.deleteProductToList(computeur);
-        factory.updateNameProduct(banana, "Banane");
-        listproGestion.displayList();
+        controller.updateNameProduct(banana, "Banane");
+        listproGestion.displayList(); 
     }
 }

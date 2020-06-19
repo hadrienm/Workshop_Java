@@ -1,6 +1,9 @@
-companie/stockgestion/factory/listProductGestion/ListProductGestion.class
-companie/stockgestion/factory/Product.class
-companie/stockgestion/factory/Factory.class
-companie/stockgestion/factory/Fruit.class
-companie/stockgestion/factory/Electronic.class
+companie/stockgestion/product/Fruit.class
+PackageTest/Test.class
+companie/stockgestion/ListProductGestion.class
+PackageTest2/Test2.class
+companie/stockgestion/product/Electronic.class
+companie/stockgestion/product/Factory.class
+companie/stockgestion/SaveList.class
 companie/stockgestion/main.class
+companie/stockgestion/product/Product.class

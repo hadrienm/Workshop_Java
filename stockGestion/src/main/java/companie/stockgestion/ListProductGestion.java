@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package companie.stockgestion.factory.listProductGestion;
+package companie.stockgestion;
 
-import companie.stockgestion.factory.Electronic;
-import companie.stockgestion.factory.Fruit;
-import companie.stockgestion.factory.Product;
+import companie.stockgestion.product.Electronic;
+import companie.stockgestion.product.Fruit;
+import companie.stockgestion.product.Product;
 import java.util.ArrayList;
 
 /**
@@ -16,14 +16,14 @@ import java.util.ArrayList;
  */
 public final class ListProductGestion {
     private ArrayList<Product> productList = new ArrayList<>();
-    public ListProductGestion() {
+    protected ListProductGestion() {
     }
     
-    public ListProductGestion(ArrayList<Product> productList) {
+    protected ListProductGestion(ArrayList<Product> productList) {
         this.productList = productList;
     }
     
-    public void displayList() {
+    protected void displayList() {
         productList.forEach(Product -> {
             if (Product instanceof Electronic) {
                 Electronic electronic = (Electronic)Product;
@@ -43,15 +43,15 @@ public final class ListProductGestion {
         });
     }
 
-    public void addProductToList(Product product) {
+    protected void addProductToList(Product product) {
         this.productList.add(product);
     }
     
-    public void deleteProductToList(Product product) {
+    protected void deleteProductToList(Product product) {
         this.productList.remove(product);
     }
     
-    public ArrayList<Product> getProductList() {
+    protected ArrayList<Product> getProductList() {
         return productList;
     }
     
